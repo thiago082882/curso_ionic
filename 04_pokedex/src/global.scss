@@ -44,6 +44,10 @@ ion-header{
     background-size: cover;
 
 }
+ion-header .header-background{
+    backdrop-filter: none !important;
+}
+
 ion-text{
     color: black;
     font-size: 1.2em;

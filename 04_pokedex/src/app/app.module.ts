@@ -6,7 +6,7 @@ import { IonicModule, IonicRouteStrategy, NavParams } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-
+import { ScreenOrientation } from '@awesome-cordova-plugins/screen-orientation/ngx';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
     { provide: RouteReuseStrategy,
      useClass: IonicRouteStrategy },
     NavParams,
-  // ScreenOrientation
+    ScreenOrientation
   ],
   bootstrap: [AppComponent,],
 })
